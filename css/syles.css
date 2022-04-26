@@ -1,0 +1,54 @@
+/* this selects all elements */
+* {
+  background-color: hotpink;
+}
+
+/* 
+BOX MODEL
+*/
+
+.ib {
+  display: inline-block;
+  /* how far from the left should it be */
+  position: relative;
+  left: 50%;
+  /* calulates moving el over from actual position */
+  transform: translate(-50%);
+}
+
+/* margin is the space AROUND an element */
+.margin {
+  /* margin: top right bottom left */
+  /* rem = root font size */
+  /* margin: 4rem 8rem 4rem 8rem; */
+  /* margin top-bottom side-side */
+  margin: 4rem 8rem;
+  /* margin top-bottom-left-right */
+  /* margin: 10rem; */
+}
+
+/* edge of the content */
+.border {
+  /* border: width style color */
+  border: .5rem dotted chartreuse;
+  /* border-left */
+  /* border-bottom */
+  /* border-right */
+}
+
+/* padding is the space between the content and the border */
+.padding {
+  /* padding: top right bottom left */
+  /* padding: top-bottom side-side */
+  /* padding: all around */
+  padding: 2.5rem;
+}
+/* old school way to center things  */
+.center-trick {
+  /* center block elements */
+  /* side-side = whatever space is there divided */
+  margin: 0 auto;
+  /* inline elements */
+  /* css assumes inline els are text */
+  text-align: center;
+}

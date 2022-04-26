@@ -9,8 +9,8 @@ BOX MODEL
 
 .ib {
   display: inline-block;
-  /* how far from the left should it be */
   position: relative;
+  /* how far from the left should it be */
   left: 50%;
   /* calulates moving el over from actual position */
   transform: translate(-50%);
